@@ -3,4 +3,4 @@ project(01)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(01 main.cpp classes/Block/Block.cpp classes/Block/Block.h)
+add_executable(01 main.cpp classes/Block/Block.cpp classes/Block/Block.h classes/Solver/Solver.h)

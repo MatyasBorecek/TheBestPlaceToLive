@@ -23,6 +23,12 @@ public:
         return this->numberOfReqs;
     }
 
+    bool hasReq(const string &req) const {
+        return this->blockMap.find(req)->second;
+    };
+
+    void setVal(const string &reqName, bool value);
+
 private:
     vector<string> reqs;
     size_t numberOfReqs;

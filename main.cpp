@@ -13,7 +13,6 @@ using std::string;
 int main() {
     const vector<string> reqs = {"gym", "school", "store"};
 
-    auto b = new Block(reqs);
 
     return 0;
 }
